@@ -58,7 +58,7 @@
       const apiKey = "b5af9691bbc1a18580efdd1737f22470"; // api key
       const result = document.getElementById("weatherResult");
 
-      if (!city) {
+ if (!city) {
         result.innerHTML = "<p>Please enter a city name.</p>";
         return;
       }
